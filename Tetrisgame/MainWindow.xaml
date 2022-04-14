@@ -120,17 +120,17 @@
               Visibility="Hidden">
             <StackPanel HorizontalAlignment="Center"
                         VerticalAlignment="Center">
-                <TextBlock Text="Bạn đã thua!"
+                <TextBlock Text="GameOver!"
                            FontSize="48"
                            TextAlignment="Center"/>
 
                 <TextBlock x:Name="FinalScoreText"
-                           Text="Điểm: "
+                           Text="Score: "
                            FontSize="36"
                            TextAlignment="Center"/>
                 <TextBox x:Name="txtName"></TextBox>
 
-                <Button Content="Chơi Lại"
+                <Button Content="Restart game"
                         Background="WhiteSmoke"
                         Margin="0,20,0,0"
                         Padding="5"

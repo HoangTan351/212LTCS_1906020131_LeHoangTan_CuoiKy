@@ -133,7 +133,7 @@ namespace Tetrisgame
             DrawBlock(gameState.CurrentBlock);
             DrawNextBlock(gameState.BlockQueue);
             DrawHeldBlock(gameState.HeldBlock);
-            ScoreText.Text = $"Điểm: {gameState.Score}";
+            ScoreText.Text = $"Score: {gameState.Score}";
             getHighScore();
         }
         private async Task GameLoop()
@@ -148,7 +148,7 @@ namespace Tetrisgame
                 Draw(gameState);
             }
             GameOverMenu.Visibility = Visibility.Visible;
-            FinalScoreText.Text = $"Điểm: {gameState.Score}";
+            FinalScoreText.Text = $"Score: {gameState.Score}";
 
         }
 
