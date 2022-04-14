@@ -8,8 +8,11 @@ namespace Tetrisgame.Model
 {
     internal class ScoreModel
     {
+        public int Id { get; set; }
         public string NickName { get; set; }
         public int Score { get; set; }
+
+        public DateTime datetime { get; set; }
         
         public ScoreModel()
         {
